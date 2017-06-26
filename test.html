@@ -1,0 +1,38 @@
+<div id="app">
+  <div class="site-wrapper">
+
+    <div class="site-wrapper-inner">
+
+      <div class="cover-container">
+
+        <div class="masthead clearfix">
+          <div class="inner">
+            <h3 class="masthead-brand navbar navbar-fixed-top">
+  <img src="/src/assets/pic/teamlogo.png" alt="Enterprize" style="width:150px; height:150px">
+                </h3>
+            <nav>
+              <ul class="nav masthead-nav">
+                <li class="active">
+                  <router-link :to="{ name: 'Home', params: {} }">Home</router-link>
+                </li>
+                <li>
+                  <router-link :to="{ name: 'Schedule', params: {} }">Schedule</router-link>
+                </li>
+                <li>
+                  <router-link :to="{ name: 'Team', params: {} }">Team</router-link>
+                </li>
+                <li><a href="#">Gallery</a></li>
+                <li></li>
+              </ul>
+            </nav>
+
+          </div>
+        </div>
+
+      </div>
+      <router-view></router-view>
+    </div>
+
+  </div>
+
+</div>
