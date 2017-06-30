@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from '../components/Home.vue'
 import Team from '../components/Team.vue'
 import Schedule from '../components/Schedule.vue'
+import Gallery from '../components/Gallery.vue'
 
 Vue.use(Router)
 
@@ -22,6 +23,11 @@ export default new Router({
       path: '/schedule',
       name: 'Schedule',
       component: Schedule
+    },
+    {
+      path: '/gallery',
+      name: 'Gallery',
+      component: Gallery
     }
   ]
 })
