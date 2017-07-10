@@ -12,10 +12,10 @@
               <div class="row">
                 <div class="col-sm-3 col-xs-4">
     <div>
-      <a href="#">
-        <img src="/src/assets/pic/Person-placeholder.jpg" class="img-circle" alt="Lights" style="width:100%">
+      <a href="https://www.facebook.com/johncheungngai">
+        <img src="/src/assets/pic/john.jpg" class="img-circle" alt="Lights" style="width:100%">
         <div class="caption">
-          <p>Lorem ipsum...</p>
+          <p>Ngai Cheung</p>
         </div>
       </a>
     </div>
@@ -149,3 +149,19 @@
 
 
 </template>
+
+<style media="screen">
+/*Teams*/
+
+.teamcontainer .jumbotron{
+  background-color: black;
+  border: 3px;
+  border-color: aqua;
+
+}
+.teamcontainer {
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  color: white;
+
+}
+</style>
