@@ -8,7 +8,7 @@
           </div>
           <div class="col-lg-8">
             <div class="well" style="background-color:black">
-              <h2>2017 TEAM</h2>
+              <h2>2017 TEAM is the best</h2>
               <div class="row">
                 <div class="col-sm-3 col-xs-4">
     <div>
