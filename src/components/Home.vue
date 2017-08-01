@@ -16,3 +16,10 @@
   </div>
 
 </template>
+
+<style media="screen">
+  .lead{
+    color: white;
+    font-weight: bold;
+  }
+</style>

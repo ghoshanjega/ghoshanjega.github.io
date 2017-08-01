@@ -114,7 +114,7 @@ export default {
   data() {
     return{
       theday: '',
-      themonth: "Click on a event",
+      themonth: "Click on an event",
       themessage:""
     }
 
